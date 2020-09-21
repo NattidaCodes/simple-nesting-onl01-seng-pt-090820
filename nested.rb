@@ -58,9 +58,9 @@ def dennis_ritchies_language
         }
      }
 
-programmer_hash[:dennis_ritchie][:languages].each do |language|
-	puts "#{language.to_s}"
-	end
+# programmer_hash[:dennis_ritchie][:languages].each do |language|
+# 	puts "#{language.to_s}"
+# 	end
 end
 
 def adding_matz
@@ -113,10 +113,6 @@ def changing_alan
 end
 
 def adding_to_dennis
-	programmer_hash["dennis_ritchie"][:languages] << "Assembly"
-
-	puts programmer_hash
-
 	programmer_hash =
  		{
         :grace_hopper => {
@@ -132,5 +128,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
+	programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+		
 
 end
