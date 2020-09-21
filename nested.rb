@@ -59,7 +59,7 @@ def dennis_ritchies_language
      }
 
 programmer_hash[:dennis_ritchie][:languages].each do |language|
-	puts "#{language.to_s}"
+	puts "#{language.to_s.split([])}"
 	end
 end
 
