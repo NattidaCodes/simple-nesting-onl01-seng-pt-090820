@@ -58,7 +58,7 @@ def dennis_ritchies_language
         }
      }
 
-programmer_hash[:dennis_ritchie][:language].select do |language|
+programmer_hash[:dennis_ritchie][:languages].each do |language|
 	puts "#{language.to_s}"
 	end
 end
