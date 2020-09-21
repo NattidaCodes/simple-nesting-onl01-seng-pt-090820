@@ -83,7 +83,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+programmer_hash[:]
 
 end
 
@@ -126,8 +126,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-	programmer_hash[:dennis_ritchie][:languages].each do |language|
-		language << "Assembly"
+	programmer_hash[:dennis_ritchie][:languages] << Assembly
 	end
 
 end
