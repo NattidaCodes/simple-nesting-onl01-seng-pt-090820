@@ -58,8 +58,9 @@ def dennis_ritchies_language
         }
      }
 
-programmer_hash[:dennis_ritchie][:languages].each {|language| language.to_s}
+programmer_hash[:dennis_ritchie][:languages].each do |language|
 	puts "#{language}"
+	end
 end
 
 def adding_matz
